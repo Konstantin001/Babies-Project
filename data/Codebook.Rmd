@@ -1,0 +1,26 @@
+---
+title: "Codebook/Babies Data"
+author: "Konstantin Tskhay"
+date: "August 21, 2015"
+output: html_document
+---
+
+## The following are the variabes represented in final.csv
+1. **id** = represents participant id [1-52]; *num*
+2. **file.id** = which file the id corresponds to; *chr*
+3. **sex** = participant sex [-.5 = 'Female'; .5 = 'Male]; *num*
+4. **face** = target face sex [-.5 = 'Female'; .5 = 'Male] // Prime Condition ; *num*
+5. **name** = target name sex [-.5 = 'Female'; .5 = 'Male] // Categorization Name; *num*
+6. **mean** = mean response latency within condition (outliers removed); *num*
+7. **median** = median response latency within condition (outliers removed); *num*
+8. **race** = participant race; *chr*
+9. **age** = participant age; *num*
+10. **exposure** = the amount of exposure people had to children; *num*
+
+
+
+
+
+
+
+

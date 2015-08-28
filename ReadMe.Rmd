@@ -1,0 +1,29 @@
+---
+title: "Overview"
+author: "Konstantin Tskhay"
+date: "August 28, 2015"
+output: html_document
+---
+
+The directory contains the data from the study that examined whether people process babies face automatically. The lexical decision task was employed. The participants asked to classify male and female names as either "Male" or "Female" via key press. Half of the male name were preceded by a brief presentation of male face and half were preceded by a female face, presented for 200 ms.
+
+**Hypothesis:** If people process babies sex automatically, they should be faster at idenifying male names after male faces than male names after female faces. Similarly, the female faces will be categorized accoring to their sex faster if they are preceded by female, as opposed to male, face.
+
+The studies were conducted in the lab. 
+
+## Files in the main directory
+1. analysis.R = the script used to analyze the final.data; hypotheses tests
+2. clean_data.R = the script that takes raw data and converts it to final.csv
+3. data = folder containing raw and processed data at every step
+4. Fig1.pdf = a figure representing final results
+5. ReadMe.Rmd = this file (markdown)
+6. ReadMe.html = the html version of this file
+
+## Files in 'data' subdirectory
+1. catDF.csv = a data table containing all of the responses for all participants
+2. CodeBook.html = codebook for final.csv
+3. CodeBook.Rmd = codebook for final.csv (markdown)
+4. ColNames.csv = contains the names for all of the columns
+5. final.csv = contains all of the final data ready for analyses
+6. Raw = a folder containing raw data
+7. RTDF.csv = a data table containing all of the response latencies for each trial for each participants
